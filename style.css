@@ -1,6 +1,13 @@
 html {
     background-color: #ffe5ce ;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 /* describe header which contains company's logo and important links */
 header { 
     /* add style  */
@@ -13,6 +20,7 @@ header {
     /* how elements located (two columns)*/
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
     flex-wrap: wrap;
 }
 /* describe style for company's logo (at center in first column)*/
@@ -91,6 +99,7 @@ h2 {
 .main-info img {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     flex: 1;
     flex-shrink: 0;
@@ -194,7 +203,7 @@ footer {
     background-color: #422e2d;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     color: #d1b8a2;
     padding: 8px;
 }
