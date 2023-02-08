@@ -94,8 +94,8 @@ h2 {
     flex-direction: column;
     flex: 1;
     flex-shrink: 0;
-    width: auto;
-    height: auto;
+    width: 472px;
+    height: 268px;
     border-radius: 25px;
     padding: 8px;
     margin: 16px;
