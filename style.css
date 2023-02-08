@@ -1,0 +1,204 @@
+html {
+    background-color: #ffe5ce ;
+}
+/* describe header which contains company's logo and important links */
+header { 
+    /* add style  */
+    background-color: #422e2d;  
+    color: #d1b8a2;
+    font-size: large;
+    font-weight: 900;
+    /* add space around elements */
+    padding: 24px;
+    /* how elements located (two columns)*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* describe style for company's logo (at center in first column)*/
+.header_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #d1b8a2;
+}
+/* describe style for links (at flex-end with space-between) */
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    padding: 12px;
+    color: #d1b8a2;
+    font-size: 18px;
+}
+/* describe main container's display (column direction at center) */
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* describe main information sector (two columns) */
+.main-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #422e2d
+}
+/* style for heading second section */
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #422e2d;
+    align-self: center;
+}
+
+.describe-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 16px;
+}
+
+.describe-product h1 {
+    color: #d1b8a2;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.describe-product p {
+    color: #d1b8a2;
+    font-size: 18px;
+}
+
+.describe-product button {
+    background-color: #cd8c4e;
+    border-radius: 15px;
+    color: #d1b8a2;
+    border-color: #cd8c4e;
+    box-shadow: none;
+    padding: 8px;
+}
+
+.main-info img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    flex-shrink: 0;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+    padding: 8px;
+    margin: 16px;
+}
+
+.supplementary-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 32px;
+}
+
+.supplementary-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.supplementary-info p {
+    align-self: flex-end;
+}
+
+.info {
+    max-width: 200px;
+  }
+
+.inspa-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: #d1b8a2;
+    font-size: 36px;
+    font-style: italic;
+    color: #422e2d;
+    padding: 32px;
+}
+
+.inspa-quote p {
+    margin-bottom: 8px;
+}
+
+#author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 48px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding: 16px;
+    background-color: #cd8c4e;
+    color: #d1b8a2;
+    width: 400px;
+}
+
+.sign-up button {
+    margin: 16px;
+    padding: 8px;
+    background-color: #cd8c4e;
+    color: #d1b8a2;
+    border-color: #d1b8a2;
+    box-shadow: none;
+    border-radius: 15px;
+}
+
+.sign-up-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-info h3 {
+    margin-bottom: 0;
+}
+
+.sign-up-info p {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #422e2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d1b8a2;
+    padding: 8px;
+}
+
+a {
+    color: #d1b8a2;
+}
